@@ -1,0 +1,40 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Life on the Sea",
+      "description": "This article covers in detail what it is like to live on the sea.",
+      "category": "Audio",
+      "tags": [
+        "ship2",
+        "boat",
+        "ship",
+        "sea",
+        "seafood"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Skateboarding",
+      "description": "Tips and Tricks about Skateboarding",
+      "category": "Video",
+      "tags": [
+        "mp4",
+        "boards"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Music Quizes",
+      "description": "All the best ideas for your next pop quiz!",
+      "category": "Quiz",
+      "tags": [
+        "music",
+        "80s",
+        "90s",
+        "pop",
+        "rock"
+      ]
+    }
+  ]
+}
