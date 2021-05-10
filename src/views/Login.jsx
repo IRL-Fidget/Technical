@@ -18,7 +18,7 @@ const Login = props => {
     
         if(obj.username === "admin" && obj.password === "password123"){ 
           props.setAuth(true);
-          props.history.push('/articles');
+          props.history.push('/contents');
         }
         else{
           toast.error("Failed to Login. Check Username and Password");

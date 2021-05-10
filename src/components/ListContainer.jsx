@@ -14,7 +14,7 @@ import TextField from "@material-ui/core/TextField";
 
 import { deleteArticle } from "api/requests";
 import { toast } from 'react-toastify';
-import { ArticleContext } from "views/Articles";
+import { ArticleContext } from "views/Contents";
 
 const useStyles = makeStyles((theme) => ({
   root: {

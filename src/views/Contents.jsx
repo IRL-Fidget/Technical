@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-const Articles = props => {
+const Contents = props => {
     const classes = useStyles();
     const [orgArticles, setOrgArticles] = useState([]);
     const [articleList, setArticleList] = useState([]);
@@ -104,4 +104,4 @@ const Articles = props => {
     )
 }
 
-export default Articles;
+export default Contents;

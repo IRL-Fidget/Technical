@@ -4,7 +4,7 @@ import { Button, TextField, InputLabel, MenuItem, FormControl, Select } from '@m
 import Grid from '@material-ui/core/Grid';
 import { createArticle } from 'api/requests';
 import { toast } from 'react-toastify';
-import { ArticleContext } from "views/Articles";
+import { ArticleContext } from "views/Contents";
 
 const useStyles = makeStyles((theme) => ({
     root: {

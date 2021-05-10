@@ -14,7 +14,7 @@ import AddCircleOutlineSharpIcon from '@material-ui/icons/AddCircleOutlineSharp'
 import { addTag } from 'api/requests';
 import { toast } from 'react-toastify';
 import update from 'immutability-helper';
-import { ArticleContext } from "views/Articles";
+import { ArticleContext } from "views/Contents";
 
 const useStyles = makeStyles({
   root: {

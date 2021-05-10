@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import ProtectedRoute from "components/ProtectedRoute";
 
 import Login from 'views/Login';
-import Articles from 'views/Articles';
+import Contents from 'views/Contents';
 
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -28,7 +28,7 @@ function App() {
               <Login {...props} setAuth={setAuth}/>
           } 
         />
-        <ProtectedRoute exact path='/articles' user={auth} handleLogin={handleLogout} component={Articles} />
+        <ProtectedRoute exact path='/contents' user={auth} handleLogin={handleLogout} component={Contents} />
       </Router>
     </div>
   );
